@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #1e1e1e;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar-logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .book-btn {
+    background-color: #28a745;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-btn:hover {
+    background-color: #218838;
+  }
+  
